@@ -129,7 +129,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>🤖Fantasy Bot🦾</h1>
+            <h1>Fantasy Bot</h1>
           </div>
           <div className="header-subtitle">
             <h2>What is your wildest fantasy?</h2>
