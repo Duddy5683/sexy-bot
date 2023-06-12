@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
-  const [lyrics, setLyrics] = useState([]);
+  const [fantasy, setFantasy] = useState([]);
   const [currentLine, setCurrentLine] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [playing, setIsPlaying] = useState(false);
