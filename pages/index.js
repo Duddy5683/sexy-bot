@@ -124,15 +124,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-Rapper | buildspace </title>
+        <title>Erotic-Robotic | buildspace </title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>🤖Botty Bops🦾</h1>
+            <h1>🤖Fantasy Bot🦾</h1>
           </div>
           <div className="header-subtitle">
-            <h2>What do you want🤖Botty to rap about?</h2>
+            <h2>What is your wildest fantasy?</h2>
           </div>
         </div>
         <audio
@@ -143,7 +143,7 @@ const Home = () => {
         />
         <div className="prompt-container">
           <textarea
-            placeholder="start typing here"
+            placeholder="Let's make a dream a reality"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -170,7 +170,7 @@ const Home = () => {
                 {isGenerating ? (
                   <span className="loader"></span>
                 ) : (
-                  <p>Boppit</p>
+                  <p>Get me hard</p>
                 )}
               </div>
             </a>
@@ -181,7 +181,7 @@ const Home = () => {
             <div className="prompt-buttons">
               <a className="generate-button" onClick={stopPlaying}>
                 <div className="generate">
-                  <p>Stop</p>
+                  <p>I Busted</p>
                 </div>
               </a>
             </div>
@@ -196,7 +196,7 @@ const Home = () => {
                 <h3>{currentLine}</h3>
               </div>
               <div className="output-content">
-                <p> {lyrics} </p>
+                <p> {Fantasy} </p>
               </div>
             </div>
           </div>
